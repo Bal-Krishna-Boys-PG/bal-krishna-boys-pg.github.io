@@ -1,0 +1,8 @@
+# Robots.txt for Balkrishna Boys' PG Ahmedabad
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /thank-you.html
+
+Sitemap: https://bal-krishna-boys-pg.github.io/sitemap.xml
+

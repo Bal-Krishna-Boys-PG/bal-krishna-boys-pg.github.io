@@ -79,10 +79,10 @@ Clear breakdown of available options to eliminate confusion and filter enquiries
 
 | Sharing Option | Room Type | Bathroom Type | Key Features | Monthly Fare (Dummy Rate)* |
 | :--- | :--- | :--- | :--- | :--- |
-| **2 Sharing** | Non-AC Only | General / Common Washroom | Spacious, maximum personal space, wooden wardrobe, study desk | **₹8,500 / mo** |
-| **3 Sharing** *(Most Popular)* | AC or Non-AC | **Attached** (for AC) / General (for Non-AC) | Balanced comfort, individual lockers, high-speed Wi-Fi | **Non-AC: ₹7,000 / mo**<br>**AC: ₹8,000 / mo** |
-| **4 Sharing** *(Budget Friendly)* | AC or Non-AC | **Attached** (for AC) / General (for Non-AC) | Economical, spacious room, personal storage | **Non-AC: ₹6,000 / mo**<br>**AC: ₹7,000 / mo** |
-| **5 Sharing** *(Exclusive)* | Non-AC Only | General / Common Washroom | **Only 1 Room in Property**, budget group accommodation | **₹5,200 / mo** *(Limited)* |
+| **2 Sharing** | Non-AC Only | General / Common Washroom | Spacious, maximum personal space, wooden wardrobe, study desk | **₹10,000 / mo** |
+| **3 Sharing** *(Most Popular)* | AC or Non-AC | **Attached** (for AC) / General (for Non-AC) | Balanced comfort, individual lockers, high-speed Wi-Fi | **Non-AC: ₹8,000 / mo**<br>**AC: ₹9,000 / mo (+ AC units)** |
+| **4 Sharing** *(Budget Friendly)* | AC or Non-AC | **Attached** (for AC) / General (for Non-AC) | Economical, spacious room, personal storage | **Non-AC: ₹8,000 / mo**<br>**AC: ₹9,000 / mo (+ AC units)** |
+| **5 Sharing** *(Exclusive)* | Non-AC Only | General / Common Washroom | **Only 1 Room in Property**, budget group accommodation | **₹8,000 / mo** *(Limited)* |
 
 > **\*Note on Pricing:** Rates above are placeholders and can be adjusted with final values prior to release.
 
@@ -151,9 +151,9 @@ Two-column interactive layout:
   * Close to Science City & SG Highway
   * Quick access to Silver Oak University, SAL Hospital, and BRTS/AMTS stops.
 * **Direct Contacts:**
-  * Phone: `+91 XXXXX XXXXX`
-  * WhatsApp: `+91 XXXXX XXXXX`
-  * Email: `balkrishnaboyspg@gmail.com` (or preferred email)
+  * Phone: `+91 63535 78799`
+  * WhatsApp: `+91 63535 78799`
+  * Email: `balkrishnaboyspg@gmail.com`
 * **Embedded Google Map:** Responsive interactive iframe centered on the property with a `"Get Directions"` button.
 
 ---
@@ -231,7 +231,7 @@ Please let me know room availability and visit timings.`;
     "longitude": "72.5310"
   },
   "url": "https://balkrishnaboyspg.github.io",
-  "priceRange": "₹5,200 - ₹8,500",
+  "priceRange": "₹8,000 - ₹10,000",
   "amenityFeature": [
     { "@type": "LocationFeatureSpecification", "name": "Pure Vegetarian Food", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Free High-Speed Wi-Fi", "value": true },
@@ -254,3 +254,56 @@ Please let me know room availability and visit timings.`;
 4. [ ] **Photos:** Place real room, dining, washroom, and exterior photos in `/assets/images/`.
 5. [ ] **Deploy:** Push changes to GitHub repository; GitHub Pages will deploy automatically.
 
+
+
+---
+
+## 6. Design System & WCAG AA Accessible Palette
+
+The website uses a warm, organic **Pinewood Brown** color system paired with a non-glare **Sandstone Canvas** and **Warm Bronze** accents, engineered specifically to satisfy WCAG AA (and AAA) contrast standards without harsh white or flashy light colors.
+
+### A. Major Site Canvas (Eliminating Stark White Glare)
+* **Sandstone Canvas (`#EFE8DE` / `slate-50`):** Dominant surface canvas covering page backgrounds. Muted, matte, and comfortable on the eyes. Contrast with Pinewood Brown is **5.49:1** (exceeds WCAG AA 4.5:1).
+* **Warm Parchment (`#F8F3EC` / `parchment`):** Soft elevated surface for room cards, amenity containers, and review cards. Contrast with Pinewood Brown is **6.05:1** (WCAG AA).
+* **Deepest Heading Text (`#19140F` / `slate-900`):** **15.04:1** contrast on canvas, **16.57:1** on cards (Passes WCAG AAA).
+* **Body Text (`#3E3227` / `slate-700`):** **10.22:1** contrast on canvas (Passes WCAG AAA).
+* **Muted Caption Text (`#5E4C3C` / `slate-500`):** **6.71:1** contrast on canvas (Passes WCAG AA).
+
+### B. Pinewood Brown & Primary Interactive Elements
+* **Pinewood Brown Core (`#835028` / `brand-600`):** Primary action buttons, badges, and active states. White text on this button achieves **6.68:1** contrast (Passes WCAG AA).
+* **Deep Pine Heartwood (`#683B1A` / `brand-700`):** Hover states. White text achieves **9.42:1** contrast (Passes WCAG AAA).
+* **Dark Timber Footer (`#120D08` / `slate-950`):** Deep wood footer with warm cream links.
+
+### C. Warm Bronze (Complete WCAG AA Replacement for Green)
+All green badges, tags, buttons, and checkmark icons have been replaced with **Warm Golden Bronze**:
+* **Solid Bronze (`#8C4408`):** Feature checkmarks and primary badges (**5.86:1** contrast on canvas, **6.46:1** on cards, **7.13:1** on white).
+* **Deep Bronze Text (`#6E3404`):** Trust pill and Pure Veg highlight text (**8.01:1** contrast on canvas, passes WCAG AAA).
+* **Bronze Pill Background (`#F6EADB`):** Soft, non-glare badge background with `#DDA867` border.
+* **WhatsApp CTA Button:** Converted from green to **Pinewood Brown** (`#835028`), achieving **6.68:1** contrast with clean white typography.
+
+
+
+---
+
+## 7. Comprehensive WCAG 2.1 / 2.2 AA Accessibility Compliance
+
+The site has been audited and hardened according to **WCAG 2.1 / 2.2 Level AA** standards across all pages:
+
+| WCAG Criterion | Level | Requirement | Implementation in Balkrishna Boys' PG |
+| :--- | :--- | :--- | :--- |
+| **1.1.1 Non-text Content** | Level A | Text alternatives for non-text content | All `<img>` tags have descriptive alt text; all decorative SVGs have `aria-hidden="true"`. |
+| **1.3.1 Info & Relationships** | Level A | Semantic structure & landmarks | `<header role="banner">`, `<main id="main-content">`, `<footer role="contentinfo">`, `<nav aria-label="...">`. Strictly sequential heading hierarchy (`h1` $\rightarrow$ `h2` $\rightarrow$ `h3`). |
+| **1.3.5 Identify Input Purpose** | Level AA | Autocomplete attributes | `autocomplete="name"` and `autocomplete="tel"` implemented on inquiry form fields. |
+| **1.4.3 Contrast (Minimum)** | Level AA | 4.5:1 text contrast | Contrast ratios range from **5.49:1** to **16.57:1** across the entire site. |
+| **1.4.4 Resize Text** | Level AA | Zoom to 200% without breakage | Responsive viewport without user-scalable locks or maximum scale restrictions. |
+| **1.4.11 Non-text Contrast** | Level AA | 3:1 for UI components & boundaries | All input borders, card outlines, and button boundaries exceed 3:1 against adjacent backgrounds. |
+| **2.1.1 Keyboard** | Level A | Full keyboard operation | All navigation links, buttons, form controls, FAQ items, and carousel slides can be operated via keyboard. |
+| **2.1.2 No Keyboard Trap** | Level A | Escape key navigation | Mobile menu closes immediately on `Escape` key and returns focus to toggle button. |
+| **2.2.2 Pause, Stop, Hide** | Level A | Control moving content | Hero image carousel features a dedicated **Pause/Play** controller, pauses automatically on mouse hover and keyboard focus, and halts auto-rotation if `prefers-reduced-motion` is detected. |
+| **2.4.1 Bypass Blocks** | Level A | Skip to main content | `<a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>` active on all 4 pages. |
+| **2.4.4 Link Purpose** | Level AA | Clear destination context | External links marked with `rel="noopener noreferrer"` and screen-reader notice `(opens in new tab)`. |
+| **2.4.7 Focus Visible** | Level AA | Prominent focus indicators | Global high-contrast `:focus-visible` styling (`outline: 2px solid #835028; outline-offset: 2px;`) applied. |
+| **2.5.8 Target Size (Minimum)** | Level AA | Minimum 24x24px tap targets | Carousel dots and interactive controls have padded bounding boxes exceeding 24px touch targets. |
+| **3.3.1 Error Identification** | Level A | Clear form error indicators | Missing or invalid fields set `aria-invalid="true"` with automated keyboard focus redirection. |
+| **4.1.2 Name, Role, Value** | Level A | Correct ARIA states | `aria-expanded`, `aria-controls`, `aria-labelledby`, `role="region"`, `role="tablist"` on accordions, menus, and carousels. |
+| **4.1.3 Status Messages** | Level AA | Live screen reader alerts | `role="alert"` and `aria-live="assertive"` on form status alert banners. |
