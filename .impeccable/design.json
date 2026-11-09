@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T23:36:00+05:30",
+  "title": "Design System: Balkrishna Boys' PG Ahmedabad",
+  "extensions": {
+    "colorMeta": {
+      "crest-navy": {
+        "role": "primary",
+        "displayName": "Crest Navy",
+        "canonical": "#032B52",
+        "tonalRamp": ["#021A33", "#032B52", "#083766", "#134D86", "#1D5E9E", "#7EA6D1", "#D8E5F4", "#EDF3FA"]
+      },
+      "crest-navy-deep": {
+        "role": "primary",
+        "displayName": "Crest Navy Deep",
+        "canonical": "#021A33",
+        "tonalRamp": ["#021A33", "#032B52", "#083766", "#134D86", "#1D5E9E", "#7EA6D1", "#D8E5F4", "#EDF3FA"]
+      },
+      "crest-navy-hover": {
+        "role": "primary",
+        "displayName": "Crest Navy Hover",
+        "canonical": "#083766",
+        "tonalRamp": ["#021A33", "#032B52", "#083766", "#134D86", "#1D5E9E", "#7EA6D1", "#D8E5F4", "#EDF3FA"]
+      },
+      "crest-navy-link": {
+        "role": "primary",
+        "displayName": "Crest Navy Link",
+        "canonical": "#0F4375",
+        "tonalRamp": ["#021A33", "#032B52", "#0F4375", "#134D86", "#1D5E9E", "#7EA6D1", "#D8E5F4", "#EDF3FA"]
+      },
+      "crest-sapphire-bloom": {
+        "role": "primary",
+        "displayName": "Crest Sapphire Bloom",
+        "canonical": "#1D5E9E",
+        "tonalRamp": ["#021A33", "#032B52", "#0F4375", "#1D5E9E", "#497EB8", "#7EA6D1", "#B4CCE6", "#EDF3FA"]
+      },
+      "crest-ice-copy": {
+        "role": "primary",
+        "displayName": "Crest Ice Copy",
+        "canonical": "#D8E5F4",
+        "tonalRamp": ["#021A33", "#032B52", "#083766", "#134D86", "#1D5E9E", "#7EA6D1", "#D8E5F4", "#EDF3FA"]
+      },
+      "crest-frost-tint": {
+        "role": "primary",
+        "displayName": "Crest Frost Tint",
+        "canonical": "#EDF3FA",
+        "tonalRamp": ["#021A33", "#032B52", "#083766", "#134D86", "#1D5E9E", "#7EA6D1", "#D8E5F4", "#EDF3FA"]
+      },
+      "marigold-highlight": {
+        "role": "secondary",
+        "displayName": "Marigold Highlight",
+        "canonical": "#F8C156",
+        "tonalRamp": ["#6A3B00", "#874D00", "#A35E00", "#D5890A", "#F8C156", "#F5DAA0", "#FCEFD4", "#FFF9EE"]
+      },
+      "marigold-stamp": {
+        "role": "secondary",
+        "displayName": "Marigold Stamp",
+        "canonical": "#D5890A",
+        "tonalRamp": ["#6A3B00", "#874D00", "#A35E00", "#D5890A", "#F8C156", "#F5DAA0", "#FCEFD4", "#FFF9EE"]
+      },
+      "marigold-amber": {
+        "role": "secondary",
+        "displayName": "Marigold Amber",
+        "canonical": "#A35E00",
+        "tonalRamp": ["#6A3B00", "#874D00", "#A35E00", "#D5890A", "#F8C156", "#F5DAA0", "#FCEFD4", "#FFF9EE"]
+      },
+      "marigold-bronze": {
+        "role": "secondary",
+        "displayName": "Marigold Bronze",
+        "canonical": "#874D00",
+        "tonalRamp": ["#6A3B00", "#874D00", "#A35E00", "#D5890A", "#F8C156", "#F5DAA0", "#FCEFD4", "#FFF9EE"]
+      },
+      "marigold-deep": {
+        "role": "secondary",
+        "displayName": "Marigold Deep",
+        "canonical": "#6A3B00",
+        "tonalRamp": ["#6A3B00", "#874D00", "#A35E00", "#D5890A", "#F8C156", "#F5DAA0", "#FCEFD4", "#FFF9EE"]
+      },
+      "marigold-tint": {
+        "role": "secondary",
+        "displayName": "Marigold Tint",
+        "canonical": "#FCEFD4",
+        "tonalRamp": ["#6A3B00", "#874D00", "#A35E00", "#D5890A", "#F8C156", "#F5DAA0", "#FCEFD4", "#FFF9EE"]
+      },
+      "marigold-wash": {
+        "role": "secondary",
+        "displayName": "Marigold Wash",
+        "canonical": "#FFF9EE",
+        "tonalRamp": ["#6A3B00", "#874D00", "#A35E00", "#D5890A", "#F8C156", "#F5DAA0", "#FCEFD4", "#FFF9EE"]
+      },
+      "crimson-error": {
+        "role": "semantic",
+        "displayName": "Crimson Error",
+        "canonical": "#B91C1C",
+        "tonalRamp": ["#450A0A", "#7F1D1D", "#991B1B", "#B91C1C", "#DC2626", "#F87171", "#FECACA", "#FEF2F2"]
+      },
+      "crimson-error-deep": {
+        "role": "semantic",
+        "displayName": "Crimson Error Deep",
+        "canonical": "#991B1B",
+        "tonalRamp": ["#450A0A", "#7F1D1D", "#991B1B", "#B91C1C", "#DC2626", "#F87171", "#FECACA", "#FEF2F2"]
+      },
+      "crimson-error-wash": {
+        "role": "semantic",
+        "displayName": "Crimson Error Wash",
+        "canonical": "#FEF2F2",
+        "tonalRamp": ["#450A0A", "#7F1D1D", "#991B1B", "#B91C1C", "#DC2626", "#F87171", "#FECACA", "#FEF2F2"]
+      },
+      "pure-white": {
+        "role": "neutral",
+        "displayName": "Pure White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": ["#021A33", "#16314F", "#364F6B", "#5C738D", "#9BB0C7", "#CBD9E8", "#EEF3F9", "#FFFFFF"]
+      },
+      "daylight-canvas": {
+        "role": "neutral",
+        "displayName": "Daylight Canvas",
+        "canonical": "#EBF2FA",
+        "tonalRamp": ["#1C232C", "#283C53", "#3A5778", "#4E75A2", "#7597BD", "#A5BBD4", "#E4EEF8", "#EBF2FA"]
+      },
+      "daylight-sky-wash": {
+        "role": "neutral",
+        "displayName": "Daylight Sky Wash",
+        "canonical": "#E4EEF8",
+        "tonalRamp": ["#1C232C", "#283C53", "#3A5778", "#4E75A2", "#7597BD", "#A5BBD4", "#E4EEF8", "#F4F7FB"]
+      },
+      "daylight-mist": {
+        "role": "neutral",
+        "displayName": "Daylight Mist",
+        "canonical": "#F4F7FB",
+        "tonalRamp": ["#1C232C", "#283C53", "#3A5778", "#4E75A2", "#7597BD", "#A5BBD4", "#EBF2FA", "#F4F7FB"]
+      },
+      "daylight-sunlight": {
+        "role": "neutral",
+        "displayName": "Daylight Sunlight Wash",
+        "canonical": "#F6EDE0",
+        "tonalRamp": ["#302618", "#5D431D", "#88612B", "#B6823A", "#CEA264", "#DFC29A", "#F6EDE0", "#FFF9EE"]
+      },
+      "slate-subpane": {
+        "role": "neutral",
+        "displayName": "Slate Subpane",
+        "canonical": "#EEF3F9",
+        "tonalRamp": ["#021A33", "#081E38", "#16314F", "#203A58", "#364F6B", "#5C738D", "#CBD9E8", "#EEF3F9"]
+      },
+      "slate-track": {
+        "role": "neutral",
+        "displayName": "Slate Track",
+        "canonical": "#E2EBF4",
+        "tonalRamp": ["#021A33", "#081E38", "#16314F", "#203A58", "#364F6B", "#5C738D", "#E2EBF4", "#EEF3F9"]
+      },
+      "slate-border": {
+        "role": "neutral",
+        "displayName": "Slate Field Border",
+        "canonical": "#5C738D",
+        "tonalRamp": ["#021A33", "#081E38", "#16314F", "#203A58", "#4A627D", "#5C738D", "#9BB0C7", "#EEF3F9"]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ink Muted",
+        "canonical": "#364F6B",
+        "tonalRamp": ["#021A33", "#081E38", "#16314F", "#203A58", "#364F6B", "#5C738D", "#9BB0C7", "#EEF3F9"]
+      },
+      "ink-body": {
+        "role": "neutral",
+        "displayName": "Ink Body",
+        "canonical": "#203A58",
+        "tonalRamp": ["#021A33", "#081E38", "#16314F", "#203A58", "#364F6B", "#5C738D", "#CBD9E8", "#EEF3F9"]
+      },
+      "ink-strong": {
+        "role": "neutral",
+        "displayName": "Ink Strong",
+        "canonical": "#16314F",
+        "tonalRamp": ["#021A33", "#081E38", "#16314F", "#203A58", "#364F6B", "#5C738D", "#CBD9E8", "#EEF3F9"]
+      },
+      "ink-field": {
+        "role": "neutral",
+        "displayName": "Ink Field Value",
+        "canonical": "#081E38",
+        "tonalRamp": ["#021A33", "#081E38", "#16314F", "#203A58", "#364F6B", "#5C738D", "#CBD9E8", "#EEF3F9"]
+      },
+      "acrylic-pane": {
+        "role": "neutral",
+        "displayName": "Acrylic Pane Surface",
+        "canonical": "rgba(255, 255, 255, 0.77)",
+        "tonalRamp": ["#021A33", "#081E38", "#203A58", "#5C738D", "#CBD9E8", "#E4EEF8", "#F4F7FB", "#FFFFFF"]
+      },
+      "acrylic-rail": {
+        "role": "neutral",
+        "displayName": "Acrylic Navigation Rail",
+        "canonical": "rgba(255, 255, 255, 0.80)",
+        "tonalRamp": ["#021A33", "#081E38", "#203A58", "#5C738D", "#CBD9E8", "#E4EEF8", "#F4F7FB", "#FFFFFF"]
+      },
+      "acrylic-subpane": {
+        "role": "neutral",
+        "displayName": "Acrylic Callout Subpane",
+        "canonical": "rgba(242, 246, 252, 0.84)",
+        "tonalRamp": ["#021A33", "#081E38", "#203A58", "#5C738D", "#CBD9E8", "#E2EBF4", "#EEF3F9", "#FFFFFF"]
+      },
+      "acrylic-bezel": {
+        "role": "neutral",
+        "displayName": "Acrylic Media Bezel",
+        "canonical": "rgba(255, 255, 255, 0.66)",
+        "tonalRamp": ["#021A33", "#081E38", "#203A58", "#5C738D", "#CBD9E8", "#E4EEF8", "#F4F7FB", "#FFFFFF"]
+      },
+      "acrylic-chip": {
+        "role": "neutral",
+        "displayName": "Acrylic Verification Chip",
+        "canonical": "rgba(255, 255, 255, 0.90)",
+        "tonalRamp": ["#021A33", "#081E38", "#203A58", "#5C738D", "#CBD9E8", "#E4EEF8", "#F4F7FB", "#FFFFFF"]
+      },
+      "acrylic-hairline": {
+        "role": "neutral",
+        "displayName": "Acrylic Sapphire Hairline",
+        "canonical": "rgba(3, 43, 82, 0.14)",
+        "tonalRamp": ["#021A33", "#032B52", "#134D86", "#497EB8", "#7EA6D1", "#B4CCE6", "#D8E5F4", "#EDF3FA"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display Hero",
+        "purpose": "Primary H1 statements and architectural 404 numeric plaques."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Major landing section titles across Rooms, Amenities, Rules, Reviews, FAQ, and Contact."
+      },
+      "title": {
+        "displayName": "Card & Rail Title",
+        "purpose": "Room tier headings (single-line), amenity titles, policy sections, and brand header wordmarks."
+      },
+      "body": {
+        "displayName": "Prose & Descriptions",
+        "purpose": "Lead paragraphs (54ch-70ch) and room policy copy in Figtree."
+      },
+      "label": {
+        "displayName": "UI Labels & Tabular Metadata",
+        "purpose": "Button triggers, uppercase form labels, inline status pills, and tabular tariff rates."
+      }
+    },
+    "shadows": [
+      {
+        "name": "acrylic-rail",
+        "value": "inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 12px 30px -8px rgba(0, 0, 0, 0.08)",
+        "purpose": "Floating top specular edge and soft daylight drop shadow under the sticky navigation rail."
+      },
+      {
+        "name": "acrylic-pane",
+        "value": "inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 20px 44px -12px rgba(0, 0, 0, 0.09)",
+        "purpose": "Resting elevation for primary translucent prospectus folios, room cards, and matrix containers."
+      },
+      {
+        "name": "acrylic-pane-hover",
+        "value": "inset 0 1px 0 #FFFFFF, 0 24px 48px -12px rgba(0, 0, 0, 0.14)",
+        "purpose": "Interactive hover and focus-within lift paired with rgba(135, 77, 0, 0.42) marigold border illumination."
+      },
+      {
+        "name": "acrylic-subpane",
+        "value": "inset 0 1px 0 rgba(255, 255, 255, 0.92)",
+        "purpose": "Inset translucent sub-surfaces such as the Parent Assurance callout."
+      },
+      {
+        "name": "acrylic-bezel",
+        "value": "inset 0 1px 0 #FFFFFF, 0 24px 52px -14px rgba(0, 0, 0, 0.14)",
+        "purpose": "Optical frame elevating authentic gallery photographs and embedded Google Maps."
+      },
+      {
+        "name": "acrylic-chip",
+        "value": "0 6px 18px -6px rgba(0, 0, 0, 0.14)",
+        "purpose": "High-legibility overlay shadow beneath Verified Property Photos photo chips."
+      },
+      {
+        "name": "acrylic-smoked",
+        "value": "inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 24px 48px -12px rgba(0, 0, 0, 0.28)",
+        "purpose": "Deep navy smoked glass contrast bands for electricity policy, HTTP 404 card, and footers."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-acrylic",
+        "value": "border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Perimeter rim and ambient elevation response on interactive acrylic cards."
+      },
+      {
+        "name": "slide-fade",
+        "value": "opacity 700ms ease-out",
+        "purpose": "Crossfade between hero room slides (5000ms cycle; paused on hover, focus, or reduced motion)."
+      },
+      {
+        "name": "dock-reveal",
+        "value": "all 300ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Slide-up entrance of mobile sticky Call/WhatsApp bar once scrollY passes 260px."
+      },
+      {
+        "name": "accordion-chevron",
+        "value": "transform 200ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "180deg chevron rotation on FAQ accordion disclosure toggles."
+      },
+      {
+        "name": "reduced-motion-static",
+        "value": "color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease",
+        "purpose": "Motion-free color transition enforced under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Navy CTA Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary conversion trigger featuring Crest Navy fill and 2px bottom Marigold stamp.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\"><svg class=\"ds-btn-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.394-10.416c-5.523 0-10 4.477-10 10 0 1.766.459 3.424 1.258 4.873l-1.337 4.887 5.021-1.317c1.402.766 3.003 1.206 4.708 1.206 5.522 0 10-4.477 10-10s-4.478-10-10.002-10z\"/></svg><span>WhatsApp Visit</span></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 20px; border-radius: 12px; border: 0; border-bottom: 2px solid #D5890A; background-color: #032B52; color: #FFFFFF; font-family: 'Figtree', sans-serif; font-size: 13px; font-weight: 700; line-height: 1.25; cursor: pointer; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08); transition: background-color 0.15s ease; } .ds-btn-primary:hover { background-color: #083766; } .ds-btn-primary:focus-visible { outline: 2px solid #032B52; outline-offset: 2px; } .ds-btn-icon { width: 16px; height: 16px; fill: #F8C156; flex-shrink: 0; }"
+    },
+    {
+      "name": "Secondary Outlined CTA Button",
+      "kind": "button",
+      "refersTo": "button-secondary-outline",
+      "description": "High-contrast 2px navy outline trigger atop frosted white surfaces that inverts on hover.",
+      "html": "<button type=\"button\" class=\"ds-btn-outline\"><svg class=\"ds-btn-outline-icon\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z\"/></svg><span>Schedule a Visit on WhatsApp</span></button>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 44px; padding: 12px 24px; border-radius: 12px; border: 2px solid #032B52; background-color: rgba(255, 255, 255, 0.90); color: #032B52; font-family: 'Figtree', sans-serif; font-size: 14px; font-weight: 700; cursor: pointer; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06); transition: background-color 0.15s ease, color 0.15s ease; } .ds-btn-outline-icon { width: 16px; height: 16px; color: #874D00; flex-shrink: 0; transition: color 0.15s ease; } .ds-btn-outline:hover { background-color: #032B52; color: #FFFFFF; } .ds-btn-outline:hover .ds-btn-outline-icon { color: #F8C156; } .ds-btn-outline:focus-visible { outline: 2px solid #032B52; outline-offset: 2px; }"
+    },
+    {
+      "name": "Smoked Marigold Accent CTA",
+      "kind": "button",
+      "refersTo": "button-smoked-cta",
+      "description": "High-contrast warm marigold action button designed for dark smoked navy emphasis bands.",
+      "html": "<div class=\"ds-smoked-wrap\"><a href=\"#contact\" class=\"ds-btn-smoked\">Check Availability Now</a></div>",
+      "css": ".ds-smoked-wrap { padding: 16px; border-radius: 18px; background: linear-gradient(135deg, rgba(3, 43, 82, 0.95) 0%, rgba(2, 26, 51, 0.98) 100%); border: 1px solid rgba(213, 137, 10, 0.36); display: inline-block; } .ds-btn-smoked { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 14px 24px; border-radius: 12px; background-color: #F8C156; color: #021A33; font-family: 'Figtree', sans-serif; font-size: 14px; font-weight: 800; text-decoration: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.20); transition: background-color 0.15s ease; } .ds-btn-smoked:hover { background-color: #FCEFD4; } .ds-btn-smoked:focus-visible { outline: 2px solid #F8C156; outline-offset: 2px; }"
+    },
+    {
+      "name": "Sticky Acrylic Navigation Rail",
+      "kind": "nav",
+      "refersTo": "nav-rail",
+      "description": "Translucent top navigation rail combining frosted glass blur, crest wordmark, links, and tabular contact CTA.",
+      "html": "<nav class=\"ds-nav-rail\" aria-label=\"Primary Preview\"><div class=\"ds-brand\"><span class=\"ds-crest\" aria-hidden=\"true\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75\"/></svg></span><span><strong class=\"ds-brand-title\">Balkrishna Boys' PG</strong><span class=\"ds-brand-sub\">Science City, Ahmedabad</span></span></div><div class=\"ds-nav-links\"><a href=\"#rooms\" class=\"ds-nav-link\">Rooms &amp; Rates</a><a href=\"#amenities\" class=\"ds-nav-link\">Services</a><a href=\"#rules\" class=\"ds-nav-link\">Rules</a></div><a href=\"tel:+916353578799\" class=\"ds-nav-call\">+91 63535 78799</a></nav>",
+      "css": ".ds-nav-rail { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 72px; padding: 0 20px; border-radius: 16px; background-color: rgba(255, 255, 255, 0.80); backdrop-filter: blur(22px) saturate(165%); border: 1px solid rgba(3, 43, 82, 0.14); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 12px 30px -8px rgba(0, 0, 0, 0.08); font-family: 'Figtree', sans-serif; } .ds-brand { display: flex; align-items: center; gap: 10px; } .ds-crest { width: 38px; height: 38px; border-radius: 12px; background-color: #EDF3FA; border: 1px solid rgba(3, 43, 82, 0.15); color: #032B52; display: inline-flex; align-items: center; justify-content: center; } .ds-brand-title { display: block; font-family: 'Sora', sans-serif; font-size: 16px; font-weight: 800; color: #032B52; line-height: 1.2; letter-spacing: -0.02em; } .ds-brand-sub { display: block; font-size: 11px; font-weight: 700; color: #6A3B00; } .ds-nav-links { display: flex; align-items: center; gap: 20px; } .ds-nav-link { font-size: 14px; font-weight: 600; color: #203A58; text-decoration: none; transition: color 0.15s ease; } .ds-nav-link:hover { color: #032B52; } .ds-nav-call { padding: 8px 14px; border-radius: 12px; border: 1px solid rgba(3, 43, 82, 0.20); background-color: rgba(255, 255, 255, 0.80); color: #032B52; font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; text-decoration: none; transition: background-color 0.15s ease; } .ds-nav-call:hover { background-color: #FFFFFF; } .ds-nav-link:focus-visible, .ds-nav-call:focus-visible { outline: 2px solid #032B52; outline-offset: 2px; }"
+    },
+    {
+      "name": "Room Sharing Tier Switcher",
+      "kind": "custom",
+      "refersTo": "tab-tier-active",
+      "description": "Signature prospectus dock tabs with active marigold bottom underline synced to a tabular rate readout.",
+      "html": "<div class=\"ds-dock\"><div class=\"ds-tablist\" role=\"tablist\" aria-label=\"Room Sharing Tiers\"><button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"ds-tab\">2 Sharing</button><button type=\"button\" role=\"tab\" aria-selected=\"true\" class=\"ds-tab ds-tab-active\">3 Sharing AC</button><button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"ds-tab\">4 Sharing</button><button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"ds-tab\">5 Sharing</button></div><div class=\"ds-readout\"><span class=\"ds-rate\">₹9,000</span><span class=\"ds-rate-suffix\">/mo AC • Attached Washroom</span></div></div>",
+      "css": ".ds-dock { padding: 16px 0; border-top: 1px solid rgba(3, 43, 82, 0.12); border-bottom: 1px solid rgba(3, 43, 82, 0.12); font-family: 'Figtree', sans-serif; } .ds-tablist { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; } .ds-tab { min-height: 44px; padding: 8px 10px; border-radius: 12px; border: 1px solid rgba(3, 43, 82, 0.15); background-color: rgba(255, 255, 255, 0.80); color: #16314F; font-size: 12px; font-weight: 700; cursor: pointer; transition: background-color 0.15s ease; } .ds-tab:hover { background-color: #FFFFFF; } .ds-tab-active, .ds-tab-active:hover { background-color: #032B52; color: #FFFFFF; border-color: #032B52; border-bottom: 3px solid #D5890A; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); } .ds-tab:focus-visible { outline: 2px solid #032B52; outline-offset: 2px; } .ds-readout { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(3, 43, 82, 0.10); display: flex; align-items: baseline; gap: 6px; font-variant-numeric: tabular-nums; } .ds-rate { font-family: 'Sora', sans-serif; font-size: 28px; font-weight: 800; color: #032B52; line-height: 1.1; } .ds-rate-suffix { font-size: 12px; font-weight: 700; color: #364F6B; }"
+    },
+    {
+      "name": "Room Sharing Tariff Card",
+      "kind": "card",
+      "refersTo": "card-room",
+      "description": "Translucent acrylic room container with single-line Sora title, hairline-separated tariff table, and marigold hover shift.",
+      "html": "<article class=\"ds-card\" tabindex=\"0\"><div class=\"ds-card-head\"><h3 class=\"ds-card-title\">3 Sharing Room</h3><span class=\"ds-card-pill\">Most Popular</span></div><p class=\"ds-card-sub\">AC or Non-AC • Attached / General Bath</p><div class=\"ds-card-rates\"><div class=\"ds-rate-row\"><span>Non-AC:</span><strong>₹8,000 / mo</strong></div><div class=\"ds-rate-row ds-rate-row-top\"><span>AC (Attached):</span><strong>₹9,000 / mo</strong></div></div><ul class=\"ds-card-list\"><li><svg class=\"ds-check\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\" clip-rule=\"evenodd\"/></svg><span>Individual lockable wardrobe</span></li><li><svg class=\"ds-check\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\" clip-rule=\"evenodd\"/></svg><span>Sub-meter for AC units only</span></li></ul></article>",
+      "css": ".ds-card { max-width: 310px; padding: 24px; border-radius: 16px; background-color: rgba(255, 255, 255, 0.77); backdrop-filter: blur(24px) saturate(170%); border: 2px solid rgba(3, 43, 82, 0.60); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 20px 44px -12px rgba(0, 0, 0, 0.09); font-family: 'Figtree', sans-serif; transition: border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-card:hover, .ds-card:focus-visible { border-color: rgba(135, 77, 0, 0.42); box-shadow: inset 0 1px 0 #FFFFFF, 0 24px 48px -12px rgba(0, 0, 0, 0.14); outline: none; } .ds-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; } .ds-card-title { margin: 0; font-family: 'Sora', sans-serif; font-size: 18px; font-weight: 700; color: #032B52; white-space: nowrap; } .ds-card-pill { padding: 2px 10px; border-radius: 9999px; background-color: #032B52; color: #F8C156; border: 1px solid rgba(213, 137, 10, 0.40); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; } .ds-card-sub { margin: 4px 0 0; font-size: 12px; color: #364F6B; } .ds-card-rates { margin: 16px 0; padding: 16px 0; border-top: 1px solid rgba(3, 43, 82, 0.15); border-bottom: 1px solid rgba(3, 43, 82, 0.15); font-variant-numeric: tabular-nums; } .ds-rate-row { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 600; color: #203A58; } .ds-rate-row strong { font-family: 'Sora', sans-serif; font-size: 15px; font-weight: 800; color: #032B52; } .ds-rate-row-top { margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(3, 43, 82, 0.10); } .ds-card-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 12px; color: #203A58; } .ds-card-list li { display: flex; align-items: center; gap: 8px; } .ds-check { width: 16px; height: 16px; fill: #874D00; flex-shrink: 0; }"
+    },
+    {
+      "name": "Frosted Inquiry Input & Error State",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "High-contrast translucent input with navy focus ring and accessible crimson validation message state.",
+      "html": "<div class=\"ds-field-stack\"><label for=\"ds-name\" class=\"ds-label\">Your Full Name *</label><input id=\"ds-name\" type=\"text\" value=\"Smit Patel\" class=\"ds-input\" /><label for=\"ds-phone\" class=\"ds-label ds-label-gap\">WhatsApp Number *</label><input id=\"ds-phone\" type=\"tel\" value=\"9876\" aria-invalid=\"true\" class=\"ds-input ds-input-error\" /><p class=\"ds-error-msg\">Please enter a valid 10-digit WhatsApp or phone number.</p></div>",
+      "css": ".ds-field-stack { max-width: 340px; font-family: 'Figtree', sans-serif; font-variant-numeric: tabular-nums; } .ds-label { display: block; font-size: 12px; font-weight: 700; text-transform: uppercase; color: #032B52; margin-bottom: 6px; } .ds-label-gap { margin-top: 12px; } .ds-input { width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid #5C738D; background-color: rgba(255, 255, 255, 0.90); color: #081E38; font-size: 14px; outline: none; transition: border-color 0.15s ease, box-shadow 0.15s ease; } .ds-input:focus { border-color: #032B52; box-shadow: 0 0 0 2px rgba(3, 43, 82, 0.20); } .ds-input-error { border-color: #B91C1C; box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.20); } .ds-error-msg { margin: 6px 0 0; font-size: 12px; font-weight: 700; color: #B91C1C; }"
+    },
+    {
+      "name": "Verified Marigold Status Chip",
+      "kind": "chip",
+      "refersTo": "chip-verified",
+      "description": "Pair of translucent photo overlay chip and WCAG AAA marigold-tint credential badge.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-acrylic-chip\"><svg class=\"ds-chip-icon\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\" clip-rule=\"evenodd\"/></svg>Verified Property Photos</span><span class=\"ds-pill-badge\">Verified Business Profile</span></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-family: 'Figtree', sans-serif; } .ds-acrylic-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 12px; background-color: rgba(255, 255, 255, 0.90); backdrop-filter: blur(14px) saturate(160%); border: 1px solid rgba(135, 77, 0, 0.32); box-shadow: 0 6px 18px -6px rgba(0, 0, 0, 0.14); color: #032B52; font-size: 12px; font-weight: 800; } .ds-chip-icon { width: 14px; height: 14px; fill: #874D00; flex-shrink: 0; } .ds-pill-badge { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 9999px; background-color: #FCEFD4; color: #6A3B00; border: 1px solid rgba(213, 137, 10, 0.60); font-size: 11px; font-weight: 700; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Frosted Daylight Prospectus",
+    "overview": "Balkrishna Boys' PG Ahmedabad is organized as an open, daylight-lit architectural prospectus built for equal verification by prospective college residents and their visiting parents. Rather than opaque dark cards or warm wood-and-parchment tones, the interface sets translucent frosted acrylic panes across an ambient sky-and-sunlight canvas streaked with soft Deep Crest Navy and golden Marigold radial light blooms. Every tariff, meal schedule, sub-metering clause, and open-gate policy reads effortlessly inside crisp sapphire-bordered folios and unified hairline ledgers.\n\nThis material hierarchy bridges institutional parental trust and young-adult autonomy in a single glance: Deep Crest Navy (`#032B52`) anchors headings, navigation rails, smoked contrast bands, and primary booking triggers, while calibrated Marigold Gold (`#874D00`–`#F8C156`) signals verified property details, active tier selections, and hospitable warmth. The system explicitly rejects legacy brown-and-sandstone hostel palettes, dark-mode hero slabs, synthetic stock photography, fabricated testimonials, stacked eyebrow pills above headlines, and heavy side-stripe accent borders (`4px` left/right bars).",
+    "keyCharacteristics": [
+      "Translucent frosted acrylic containers (`77%`–`90%` white fill with `14px`–`24px` backdrop blur and saturation boost) floating over continuous sky-to-sunlight radial blooms.",
+      "Authority-driven Crest Navy (`#032B52`) paired with WCAG-stratified Marigold accents (`#D5890A` active borders, `#F8C156` dark-surface highlights, `#874D00`/`#6A3B00` light-pane ink).",
+      "Geometric `Sora` display headlines anchored cleanly above tabular `Figtree` pricing columns (`tabular-nums`) and `1px` architectural hairlines (`rgba(3, 43, 82, 0.10–0.14)`).",
+      "Full hardware and accessibility resilience via `@supports not (backdrop-filter)`, `@media (prefers-reduced-transparency: reduce)`, and `@media (prefers-reduced-motion: reduce)` fallbacks."
+    ],
+    "rules": [
+      {
+        "name": "The Marigold Contrast Rule",
+        "body": "Bright sunlit marigold shades (`#F8C156`, `#D5890A`) may only act as structural bottom borders, dark-surface text/icons (`>= 4.5:1` on Crest Navy `#032B52`), or dark-ink button fills (`#021A33` on `#F8C156`); light-pane text, inline highlights, and status badges must step down to Marigold Bronze (`#874D00` for large display accents `>= 3:1` and UI icons) or Marigold Deep (`#6A3B00` for readable badges and copy `>= 4.5:1`).",
+        "section": "colors"
+      },
+      {
+        "name": "The Single-Semantic Validation Rule",
+        "body": "Inline validation errors and alert banners reserve crimson (`#B91C1C` border/copy, `#991B1B` on `#FEF2F2` banner) strictly for invalid inputs and submission failures; all brand authority remains Crest Navy (`#032B52`) paired with Marigold accents, avoiding off-palette greens or purples.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Tariff Rule",
+        "body": "Apply geometric display `Sora` exclusively to headings, wordmarks, and price figures, while locking every rent tariff (`₹8,000`–`₹10,000`), phone number (`+91 63535 78799`), visiting hour, carousel index, and input numeral to `Figtree` with `font-variant-numeric: tabular-nums` so numbers align cleanly across interactive state switches.",
+        "section": "typography"
+      },
+      {
+        "name": "The Head-First Hierarchy Rule",
+        "body": "Headlines (`<h1>`, `<h2>`, `<h3>`) open cleanly on frosted surfaces with `text-wrap: balance`, never preceded by stacked uppercase pill kickers above the heading line.",
+        "section": "typography"
+      },
+      {
+        "name": "The Single-Boundary Grouping Rule",
+        "body": "Group related daily utilities and charter rules inside one outer rounded translucent container divided by hairline rules (`1px` at `rgba(3, 43, 82, 0.10–0.14)`) rather than nesting individual bordered boxes inside an outer card.",
+        "section": "layout"
+      },
+      {
+        "name": "The Frosted Refraction Rule",
+        "body": "Frosted panes achieve physical depth through real backdrop refraction (`blur(14px–24px) saturate(150%–175%)`), inner white top-edge specular highlights (`rgba(255, 255, 255, 0.96)`), and calibrated sapphire perimeter hairlines over slow-drifting daylight radial washes—never through opaque flat gray slabs or heavy hard-edged drop shadows, and always paired with `@supports not` and `prefers-reduced-transparency: reduce` solid fallbacks.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Perimeter Stamp Rule",
+        "body": "Prefer continuous outer perimeter contours (`border` hairline strokes and `2px`–`3px` bottom marigold active border stamps) over heavy vertical accent stripes (`border-l-4` or `border-r-4`), preserving clean card edges and pill-rounded (`9999px`) inline status tags.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do pair `Sora` display numerals and headings with `Figtree` tabular numerals (`tabular-nums`) on every rent rate, phone number, visiting hour, and gallery indicator.",
+      "Do isolate grouped service lists, move-in policies, and rules inside a single frosted `.acrylic-pane` divided by `1px` sapphire hairlines (`rgba(3, 43, 82, 0.10–0.14)`).",
+      "Do step marigold ink down to `#874D00` (display accents/icons) or `#6A3B00` (badges/metadata) on translucent white panes, keeping `#F8C156` strictly for smoked navy surfaces (`#032B52`–`#021A33`).",
+      "Do keep explicit `@supports not (backdrop-filter)` and `@media (prefers-reduced-transparency: reduce)` solid surface fallbacks alongside every translucent acrylic class.",
+      "Do ensure every interactive control meets a minimum `44px` tap target and preserve existing third-party scripts, verified room photography, and factual tariffs."
+    ],
+    "donts": [
+      "Don't stack uppercase eyebrow pill labels above page or card headings (`<h1>`, `<h2>`, `<h3>`); open headlines directly on the frosted surface.",
+      "Don't nest individual shadowed or bordered boxes inside another bordered card when hairline dividers suffice.",
+      "Don't apply heavy `4px` left/right vertical border stripes (`border-l-4`, `border-r-4`), neon drop glows, or idle continuous pulse animations (`animate-pulse`) on cards or pills.",
+      "Don't use `background-attachment: fixed` parallax layers, opaque neutral grey cards (`bg-stone-*` / `bg-slate-200`), legacy warm browns (`#835028`), or uncalibrated yellow text on white glass.",
+      "Don't substitute stock photos or fabricated resident testimonials for unphotographed rooms (represent the 5-sharing unit honestly with its architectural hall layout plate and live video-tour offer)."
+    ]
+  }
+}
+
