@@ -186,13 +186,20 @@ function initHeroSpecSwitcher(carouselApi) {
     "border-brand-900",
     "border-b-[3px]",
     "border-b-marigold-300",
-    "shadow-sm"
+    "shadow-sm",
+    "dark:bg-brand-700",
+    "dark:border-brand-400/50",
+    "dark:border-b-marigold-400"
   ];
   const inactiveClasses = [
     "bg-white/80",
     "hover:bg-white",
     "text-slate-800",
-    "border-brand-900/15"
+    "border-brand-900/15",
+    "dark:bg-white/10",
+    "dark:hover:bg-white/15",
+    "dark:text-brand-100",
+    "dark:border-brand-300/20"
   ];
 
   function activateTab(tab, syncSlide = true) {
@@ -300,11 +307,11 @@ function updateCoolingTypeState() {
 
   if (is3or4Sharing) {
     acSelect.disabled = false;
-    acSelect.classList.remove("bg-slate-100", "text-slate-600", "cursor-not-allowed");
-    acSelect.classList.add("bg-white/90", "text-slate-900", "cursor-pointer");
+    acSelect.classList.remove("bg-slate-100", "text-slate-600", "dark:bg-brand-950/45", "dark:text-brand-200/75", "cursor-not-allowed");
+    acSelect.classList.add("bg-white/90", "text-slate-900", "dark:bg-brand-950/75", "dark:text-white", "cursor-pointer");
     if (helperText) {
       helperText.textContent = "AC (Attached Bath) & Non-AC available for 3 & 4 sharing.";
-      helperText.className = "text-[11px] text-marigold-800 mt-1.5 font-semibold";
+      helperText.className = "text-[11px] text-marigold-800 dark:text-marigold-400 mt-1.5 font-semibold";
     }
     if (switchAcBtn) {
       switchAcBtn.classList.add("hidden");
@@ -317,11 +324,11 @@ function updateCoolingTypeState() {
       }
     }
     acSelect.disabled = true;
-    acSelect.classList.remove("bg-white/90", "text-slate-900", "cursor-pointer");
-    acSelect.classList.add("bg-slate-100", "text-slate-600", "cursor-not-allowed");
+    acSelect.classList.remove("bg-white/90", "text-slate-900", "dark:bg-brand-950/75", "dark:text-white", "cursor-pointer");
+    acSelect.classList.add("bg-slate-100", "text-slate-600", "dark:bg-brand-950/45", "dark:text-brand-200/75", "cursor-not-allowed");
     if (helperText) {
       helperText.textContent = "Non-AC only for 2 & 5 sharing.";
-      helperText.className = "text-[11px] text-slate-600 mt-1.5";
+      helperText.className = "text-[11px] text-slate-600 dark:text-brand-200 mt-1.5";
     }
     if (switchAcBtn) {
       switchAcBtn.classList.remove("hidden");
@@ -375,8 +382,8 @@ function setFieldError(fieldId, message) {
   if (input) {
     input.setAttribute("aria-invalid", "true");
     input.setAttribute("aria-describedby", `${fieldId}-error`);
-    input.classList.remove("border-slate-400");
-    input.classList.add("border-red-700", "ring-2", "ring-red-700/20");
+    input.classList.remove("border-slate-400", "dark:border-brand-300/30");
+    input.classList.add("border-red-700", "dark:border-red-400", "ring-2", "ring-red-700/20", "dark:ring-red-400/30");
   }
   if (errorEl) {
     errorEl.textContent = message;
@@ -392,8 +399,8 @@ function clearFieldError(fieldId) {
     if (input.getAttribute("aria-describedby") === `${fieldId}-error`) {
       input.removeAttribute("aria-describedby");
     }
-    input.classList.remove("border-red-700", "ring-2", "ring-red-700/20");
-    input.classList.add("border-slate-400");
+    input.classList.remove("border-red-700", "dark:border-red-400", "ring-2", "ring-red-700/20", "dark:ring-red-400/30");
+    input.classList.add("border-slate-400", "dark:border-brand-300/30");
   }
   if (errorEl) {
     errorEl.textContent = "";
@@ -636,16 +643,42 @@ function showFormStatus(message, type) {
     "text-marigold-800",
     "border",
     "border-marigold-300",
+    "dark:bg-marigold-400/15",
+    "dark:text-marigold-400",
+    "dark:border-marigold-400/40",
     "bg-red-50",
     "text-red-800",
-    "border-red-700/45"
+    "border-red-700/45",
+    "dark:bg-red-950/75",
+    "dark:text-red-200",
+    "dark:border-red-400/50"
   );
   statusDiv.dataset.statusType = type;
 
   if (type === "success") {
-    statusDiv.classList.add("p-3.5", "rounded-xl", "bg-marigold-50", "text-marigold-800", "border", "border-marigold-300");
+    statusDiv.classList.add(
+      "p-3.5",
+      "rounded-xl",
+      "bg-marigold-50",
+      "text-marigold-800",
+      "border",
+      "border-marigold-300",
+      "dark:bg-marigold-400/15",
+      "dark:text-marigold-400",
+      "dark:border-marigold-400/40"
+    );
   } else {
-    statusDiv.classList.add("p-3.5", "rounded-xl", "bg-red-50", "text-red-800", "border", "border-red-700/45");
+    statusDiv.classList.add(
+      "p-3.5",
+      "rounded-xl",
+      "bg-red-50",
+      "text-red-800",
+      "border",
+      "border-red-700/45",
+      "dark:bg-red-950/75",
+      "dark:text-red-200",
+      "dark:border-red-400/50"
+    );
   }
 
   statusDiv.textContent = message;
@@ -738,14 +771,14 @@ function initHeroCarousel(onSlideChange) {
       if (i === index) {
         dot.setAttribute("aria-current", "true");
         if (pill) {
-          pill.classList.remove("w-2", "bg-brand-900/55");
-          pill.classList.add("w-5", "bg-brand-900");
+          pill.classList.remove("w-2", "bg-brand-900/55", "dark:bg-brand-200/45");
+          pill.classList.add("w-5", "bg-brand-900", "dark:bg-marigold-400");
         }
       } else {
         dot.setAttribute("aria-current", "false");
         if (pill) {
-          pill.classList.remove("w-5", "bg-brand-900");
-          pill.classList.add("w-2", "bg-brand-900/55");
+          pill.classList.remove("w-5", "bg-brand-900", "dark:bg-marigold-400");
+          pill.classList.add("w-2", "bg-brand-900/55", "dark:bg-brand-200/45");
         }
       }
     });

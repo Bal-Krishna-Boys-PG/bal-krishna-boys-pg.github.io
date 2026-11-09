@@ -1,0 +1,43 @@
+# Balkrishna Boys' PG
+
+> Official website for Balkrishna Boys' PG, a furnished paying guest accommodation for male students and working professionals near Sola Railway Crossing and Science City Road, Ghatlodiya, Ahmedabad, managed by owner Kashyap Patel.
+
+Monthly rent includes 3 daily 100% pure vegetarian meals (morning self-pack lunch tiffin, Gujarati/North Indian menus, Jain food on request; Sunday dinner off), commercial fiber Wi-Fi, automatic washing machines, daily housekeeping, chilled RO drinking water, hot water geysers, furnishings (bed, mattress, pillow, bedsheet, lockable wardrobe, study desk/chair), and regular electricity. For AC rooms, AC power is billed separately per digital sub-meter at government tariff rates. Online payments and instant bed booking are not supported on the website; availability checks and visits are handled via phone, WhatsApp, or the inquiry form.
+
+## Pages
+
+- [Home](https://bal-krishna-boys-pg.github.io/): Full accommodation overview and verified Google Maps summary (4.8 stars).
+- [Rooms & Monthly Rent](https://bal-krishna-boys-pg.github.io/#rooms): 2 to 5 sharing options, monthly pricing, and AC vs. Non-AC availability.
+- [Included Services & Food](https://bal-krishna-boys-pg.github.io/#amenities): Pure veg / Jain meals, Wi-Fi, automatic laundry, RO water, geysers, housekeeping, and furnishings.
+- [House Rules](https://bal-krishna-boys-pg.github.io/#rules): 24/7 open gate access (no curfew), parent visits, zero-substance policy, and quiet study hours.
+- [Reviews](https://bal-krishna-boys-pg.github.io/#reviews): Embedded Google Business Profile reviews and Google Maps profile link.
+- [FAQs](https://bal-krishna-boys-pg.github.io/#faq): Rent, AC sub-metering, deposit, notice period, meals, furniture, and visit rules.
+- [Contact & Inquiry Form](https://bal-krishna-boys-pg.github.io/#contact): WhatsApp/email inquiry form, owner contact details, visiting hours, and Google Map.
+- [Privacy Policy](https://bal-krishna-boys-pg.github.io/privacy-policy.html): Data collection, inquiry handling, and deletion practices.
+- [XML Sitemap](https://bal-krishna-boys-pg.github.io/sitemap.xml): Search engine URL index.
+
+## Rooms & Monthly Rent (Per Person, INR)
+
+- 2 Sharing (Non-AC Only): ₹10,000/month; general/common floor washroom.
+- 3 Sharing (Non-AC): ₹8,000/month; general washroom.
+- 3 Sharing (AC): ₹9,000/month + AC sub-meter electricity extra; attached bathroom.
+- 4 Sharing (Non-AC): ₹8,000/month; general washroom.
+- 4 Sharing (AC): ₹9,000/month + AC sub-meter electricity extra; attached bathroom.
+- 5 Sharing (Non-AC Only): ₹8,000/month; 1 exclusive room on property, general washroom.
+
+## House Rules & Move-In Terms
+
+- Gate Access: 24/7 open gate with no night curfew.
+- Parent Visits: Daily 9:00 AM – 9:00 PM; overnight stay for male parents can be arranged with prior notice.
+- Substances & Quiet Hours: Zero smoking, alcohol, or tobacco/gutkha permitted; noise-free study hours after 11:00 PM.
+- Deposit, Notice & Payments: 1-month refundable security deposit; 30-day prior vacate notice; Cash, UPI, and Bank Transfer accepted (INR).
+
+## Contact & Location
+
+- Owner & Management: Kashyap Patel
+- Phone / WhatsApp: +91 63535 78799 (`https://wa.me/916353578799`)
+- Email: `balkrishnaboyspg@gmail.com`
+- Address: 35, Nitin Nagar Society, Near Sola Railway Crossing, Science City Road, Ghatlodiya, Ahmedabad, Gujarat 380061, India (`23.0780`, `72.5310`)
+- Visiting Hours: 9:00 AM – 9:00 PM daily (live video tours available for outstation visitors)
+- Nearby Campuses & Hubs: Silver Oak University, SAL, Nirma University, Gujarat University, SG Highway
+
