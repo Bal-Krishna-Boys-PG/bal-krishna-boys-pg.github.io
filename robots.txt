@@ -1,4 +1,4 @@
-# Robots.txt for Balkrishna Boys' PG Ahmedabad
+# Robots.txt for Bal Krishna Boys' PG Ahmedabad
 User-agent: *
 Allow: /
 Disallow: /404.html

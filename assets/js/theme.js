@@ -1,5 +1,5 @@
 /**
- * Balkrishna Boys PG - Dark / Light Theme Controller
+ * Bal Krishna Boys PG - Dark / Light Theme Controller
  * Defaults to device color scheme unless the visitor sets a preference via the toggle button.
  */
 (function () {

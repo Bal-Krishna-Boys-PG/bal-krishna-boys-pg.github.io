@@ -1,5 +1,5 @@
 /**
- * Balkrishna Boys PG - Interactive Main Scripts
+ * Bal Krishna Boys PG - Interactive Main Scripts
  * Handles: Hero Room-Spec Switcher, Accessible Hero Carousel, WhatsApp URL generator, Async Form Submission, Unified Validation, Room Auto-selection, Mobile Nav, and FAQ Accordion
  */
 
@@ -487,7 +487,7 @@ function handleWhatsAppInquiry() {
   const { name, phone, role, sharing, actype, moveDate, notes } = result.values;
 
   const lines = [
-    `*Hello ${PG_CONFIG.ownerName} (Balkrishna Boys PG, Ahmedabad)!*`,
+    `*Hello ${PG_CONFIG.ownerName} (Bal Krishna Boys PG, Ahmedabad)!*`,
     `I would like to inquire about booking a room.`,
     ``,
     `*Name:* ${name}`,

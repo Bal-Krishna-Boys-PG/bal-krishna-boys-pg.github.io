@@ -14,7 +14,7 @@ Dual equal primary audience in English:
 
 ## Product Purpose
 
-Official website and inquiry portal for **Balkrishna Boys' PG** (`35, Nitin Nagar Society, Near Sola Railway Crossing, Science City Road, Ghatlodiya, Ahmedabad, Gujarat 380061`, managed by owner **Kashyap Patel**). It gives prospective tenants and parents transparent answers upfront on rooms, pricing, meals, amenities, rules, and location, then converts high-intent visitors into direct telephone calls, pre-filled WhatsApp conversations, or email inquiries to schedule in-person or video tours and reserve beds.
+Official website and inquiry portal for **Bal Krishna Boys' PG** (`35, Nitin Nagar Society, Near Sola Railway Crossing, Science City Road, Ghatlodiya, Ahmedabad, Gujarat 380061`, managed by owner **Kashyap Patel**). It gives prospective tenants and parents transparent answers upfront on rooms, pricing, meals, amenities, rules, and location, then converts high-intent visitors into direct telephone calls, pre-filled WhatsApp conversations, or email inquiries to schedule in-person or video tours and reserve beds.
 
 ## Positioning
 
@@ -45,14 +45,14 @@ Combines full adult independence (**24/7 open gate access with zero night curfew
 
 ## Brand Commitments
 
-- **Official business identity:** **Balkrishna Boys' PG** (Owner: **Kashyap Patel**), Ahmedabad (`+91 63535 78799`, `balkrishnaboyspg@gmail.com`).
+- **Official business identity:** **Bal Krishna Boys' PG** (Owner: **Kashyap Patel**), Ahmedabad (`+91 63535 78799`, `balkrishnaboyspg@gmail.com`).
 - **Voice:** Transparent, respectful, reassuring, and straightforward — honoring young adults' independence while giving parents concrete policy clarity.
 - **Existing brand assets:** `assets/images/logo.png` and `assets/images/favicon.ico`. Existing visual tokens and palette decisions live separately in `design.md`.
 
 ## Evidence on Hand
 
 - **Verified property room photos:** `assets/images/2 sharing non-ac.jpeg`, `assets/images/3 sharing non-ac.jpeg`, and `assets/images/4 sharing non-ac.jpeg`.
-- **Social proof & location:** Live Google Business Profile reviews embedded via Elfsight (`elfsight-app-ecfcb0ca-d7f7-4aa9-8204-eb3601fe0af4`), Google Maps `4.8` rating reference, and Google Maps embed (`Balkrishna Boys PG Ghatlodiya Ahmedabad`).
+- **Social proof & location:** Live Google Business Profile reviews embedded via Elfsight (`elfsight-app-ecfcb0ca-d7f7-4aa9-8204-eb3601fe0af4`), Google Maps `4.8` rating reference, and Google Maps embed (`Bal Krishna Boys PG Ghatlodiya Ahmedabad`).
 - **Absences not to fabricate:** No verified AC room, dining hall, washroom, or exterior photos yet; no static invented resident quotes/reviews, bed-count availability counters, or unverified claims.
 
 ## Product Principles

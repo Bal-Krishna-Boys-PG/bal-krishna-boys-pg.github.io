@@ -1,5 +1,5 @@
 ---
-name: "Balkrishna Boys' PG Ahmedabad"
+name: "Bal Krishna Boys' PG Ahmedabad"
 description: "Frosted daylight acrylic prospectus interface combining Deep Crest Navy authority, sunlit marigold accents, and transparent tabular clarity."
 colors:
   crest-navy: "#032B52"
@@ -148,13 +148,13 @@ components:
     padding: "2px 10px"
 ---
 
-# Design System: Balkrishna Boys' PG Ahmedabad
+# Design System: Bal Krishna Boys' PG Ahmedabad
 
 ## Overview
 
 **Creative North Star: "Frosted Daylight Prospectus"**
 
-Balkrishna Boys' PG Ahmedabad is organized as an open, daylight-lit architectural prospectus built for equal verification by prospective college residents and their visiting parents. Rather than opaque dark cards or warm wood-and-parchment tones, the interface sets translucent frosted acrylic panes across an ambient sky-and-sunlight canvas streaked with soft Deep Crest Navy and golden Marigold radial light blooms. Every tariff, meal schedule, sub-metering clause, and open-gate policy reads effortlessly inside crisp sapphire-bordered folios and unified hairline ledgers.
+Bal Krishna Boys' PG Ahmedabad is organized as an open, daylight-lit architectural prospectus built for equal verification by prospective college residents and their visiting parents. Rather than opaque dark cards or warm wood-and-parchment tones, the interface sets translucent frosted acrylic panes across an ambient sky-and-sunlight canvas streaked with soft Deep Crest Navy and golden Marigold radial light blooms. Every tariff, meal schedule, sub-metering clause, and open-gate policy reads effortlessly inside crisp sapphire-bordered folios and unified hairline ledgers.
 
 This material hierarchy bridges institutional parental trust and young-adult autonomy in a single glance: Deep Crest Navy (`#032B52`) anchors headings, navigation rails, smoked contrast bands, and primary booking triggers, while calibrated Marigold Gold (`#874D00`–`#F8C156`) signals verified property details, active tier selections, and hospitable warmth. The system explicitly rejects legacy brown-and-sandstone hostel palettes, dark-mode hero slabs, synthetic stock photography, fabricated testimonials, stacked eyebrow pills above headlines, and heavy side-stripe accent borders (`4px` left/right bars).
 
@@ -213,7 +213,7 @@ A daylight-first institutional palette pairing Deep Crest Navy ink and chrome wi
 ### Hierarchy
 - **Display** (`800` Extrabold, `1.875rem` mobile -> `3rem` `sm` -> `3.35rem` `xl`, `1.08` line-height, `-0.025em` tracking): Primary hero statement (`<h1>`) and architectural numerical callout (`404` status plaque).
 - **Headline** (`800` Extrabold, `1.875rem` mobile -> `2.25rem` `sm+`, `1.2` line-height, `-0.025em` tracking): Major section titles (`<h2>`) across Rooms, Services, Rules, Reviews, FAQ, Inquiry, and `thank-you` confirmation headings.
-- **Title** (`700` Bold, `1.125rem`–`1.25rem`, `1.35` line-height, `-0.015em` tracking): Room card titles (`2 Sharing Room` through `5 Sharing Room` enforced single-line via `whitespace-nowrap`), feature block titles, header wordmark (`Balkrishna Boys' PG`), and policy clauses.
+- **Title** (`700` Bold, `1.125rem`–`1.25rem`, `1.35` line-height, `-0.015em` tracking): Room card titles (`2 Sharing Room` through `5 Sharing Room` enforced single-line via `whitespace-nowrap`), feature block titles, header wordmark (`Bal Krishna Boys' PG`), and policy clauses.
 - **Body** (`400`–`500`, `0.875rem`–`1.0625rem` hero lead `15px`/`17px`, `1.625` line-height): Narrative paragraphs constrained to `54ch`–`70ch` max-width with `[text-wrap:pretty]` on hero leads.
 - **Label** (`700`–`800`, `0.625rem`–`0.75rem`, `1.25` line-height, `0.025em`–`0.05em` tracking): Form labels (uppercase), buttons, navigation links (`0.875rem` semibold), table metadata, and inline status badges (`10px`–`11px`).
 

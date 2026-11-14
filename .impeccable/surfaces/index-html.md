@@ -5,7 +5,7 @@ primary_target: "index.html"
 related_targets: ["404.html","thank-you.html","privacy-policy.html"]
 ---
 
-# Surface Brief — Balkrishna Boys' PG (Whole-Site Daylight Acrylic Overhaul)
+# Surface Brief — Bal Krishna Boys' PG (Whole-Site Daylight Acrylic Overhaul)
 
 - **Scope & Targets:** Primary route `index.html` and sibling routes `404.html`, `thank-you.html`, `privacy-policy.html` (static site architecture + coupled controller `assets/js/main.js`).
 - **Visitor Mode:** Persuade (code-led build; chosen decision sketch `.impeccable/mocks/decision/assigned.html`).
